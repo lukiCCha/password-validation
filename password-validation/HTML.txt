@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="pass-field">
+      <input type="password" placeholder="Create Password">
+      <i class="fas fa-eye"></i>
+    </div>
+    <div class="content">
+      <p>Password must contain</p>
+      <ul class="requirment-list">
+        <li>
+          <i class="fas fa-circle"></i>
+          <span>At least 8 cahracter length</span>
+        </li>
+        <li>
+          <i class="fas fa-circle"></i>
+          <span>At least 1 number (0...9)</span>
+        </li>
+        <li>
+          <i class="fas fa-circle"></i>
+          <span>At least 1 lowercase letter (a...z)</span>
+        </li>
+        <li>
+          <i class="fas fa-circle"></i>
+          <span>At least 1 symbol(!...$)</span>
+        </li>
+        <li>
+          <i class="fas fa-circle"></i>
+          <span>At least 1 uppercase (A...Z)</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
